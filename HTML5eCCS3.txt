@@ -1,0 +1,305 @@
+O que é bit?
+Bit, ou binary digit, é como o computador entende os comandos enviados a ele. O conjunto de 8 bits equivale a 1 byte
+
+Repesentação de Dados
+
+1024 bytes = 1 KB
+1024 KB = 1 MB -> é diferente de Mb/ MB = Megabytes (representa armazenamento) - Mb = Megabits (representa transmissão), isso equivale a todas outras unidades 
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
+
+IMPORTANTE!!!
+
+Domínio é o nome que hospeda o seu site -> Nome único
+					   Pago anualmente
+					   Vários TLDs
+
+Hospedagem é o local onde seu site vai estar armazenado -> Espaço para armazenar arquivos
+							   Pago Mensamente
+							   Espaço, memória, recursos
+
+
+O que é URL?
+
+URL é uma sigla para Uniform resource locator, é um endereço que ser para pesquisar um único lugar
+
+exemplo: www.github.com/gustavoguanabara
+
+Primeira parte da URL vem o domínio
+Segunda parte é o .com (TLD, ou Top level domain). GTLDs, são os genéricos como: .com(comercial), .gov(governamentais), .edu(educacionais). E os CCTLDs, são os de países como .br(Brasil), .us(EUA), UK(Reino Unido)
+Terceira parte é o www é um sub-domínio
+Quarta parte é depois da barra chamado de caminho
+
+Como funcionam a HTML e as CSS?
+
+HTML e CSS não são linguagens de programação
+
+HTML significa HyperText Markup Language (Linguagem de marcação de hipertexto)
+
+CSS significa Cascading Style Sheets (Folhas de estilo em cascata)
+
+ 
+A Linguagem de HTML é focada no conteúdo, sendo: texto, imagens, videos, tabelas, listas e etc
+
+A CSS é focada em design, sendo: cores, sombras, posicionamentos, tamanhos e etc
+
+A JS(javascript) é focada nas interações, sendo: menus, interações, popups, validações e etc
+
+Conteúdo em HTML
+
+<h1>Exemplo de título</h1>
+
+<p>Exemplo de parágrafo</p>
+
+<img src="foto.png" alt="Exemplo de foto">
+src e alt = parâmetro
+
+Estilo CSS
+
+Seletor
+h1{ declaração
+   font-family: Arial;
+   font-size: 20pt;
+   color(propriedade): blue(valor)
+
+  }
+
+Estrutura básica de documento HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+      content="width=device-width,
+      inicial-scale=1.0>
+      <title>Document</title>
+  
+
+
+  </head>
+  <body>
+      <h1>Olá, Mundo!</h1>
+
+
+
+  </body>
+</html>
+
+
+
+Front-end e Back-end
+
+Front-end é basicamente as tecnologias (HTML, CSS E JS) que rodam no navegador do client
+Back-end são os desenvolvedores que usam do servidor para rodar tecnologias (php, c#, phython, Java)
+
+Full stack é um termo usado para pessoas que são especializadas com back-end e front-end
+
+
+Alguns símbolos especias em HTML:
+
+&reg;
+&copy;
+&trade;
+&euro;
+&pound;
+&yen;
+&cent;
+&Delta; (pode ser em minúsculo, mas o símbolo muda também)
+&uparrow;
+&downarrow;
+
+Vamos adicionar alguns emoji:
+
+&#x1F596 (sempre dessa forma)
+&#x1F595 
+&#x1F44D
+
+Adicionando imagens ao HTML
+
+Coódigo base para colocar uma imagem:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com imagens</title>
+</head>
+<body>
+    <h1>Testando carga de imagens</h1>
+    <p>Abaixo vocêvai ver uma imagem que está na mesma pasta.</p>
+    <img src="html5.png" alt="logo html5">
+</body>
+</html>
+
+Dica: na hora de colocar o nome da img src coloque o cursos no meio das aspas e segure ctrl e 
+      aperte espaço ele lhe dará todas as opções de imagens que estão dentro da pasta.
+
+
+Adicionando icones no site:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icones/Barsotti.ico" type="image/x-icon">
+    <title>Testando icones</title>
+</head>
+<body>
+    <h1>Olha o favicon aqui em cima</h1>
+</body>
+</html>
+
+
+Hierarquia de Títulos:
+
+A hierarquia se comporta do h1 até o h6, e tem o significado de ter mais destaque para o maior título 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarquia de Título</title>
+</head>
+<body>
+    <h1>Entendendo Portugal</h1>
+    <h2>Introdução</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero dolor maxime sequi sit possimus id qui, ea magni! Labore enim deserunt iure exercitationem tempora eaque nisi eum, harum eveniet!</p>
+    <h3>1.1 Justificação</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus iste voluptatem doloremque in veritatis, eum illum, nam nisi dicta atque est aperiam vel veniam eaque. Esse velit placeat vero laudantium?</p>
+    <h3>1.2 Caráter excecional</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquam fugiat corrupti expedita libero debitis animi possimus error iusto, nisi repellendus veniam aperiam accusantium consectetur repellat? Repellat ut architecto temporibus.</p>
+    <h3>1.3 Perguntas da partida</h3>
+    <h3>1.4 Metodologia da Investigação</h3>
+    <h4>1.4.1 Etapas da investigação</h4>
+    <h4>1.4.2 Instrumentos de análise e fontes de informção</h4>
+    <h2>2. Ordenamento do território em Portugal:</h2>
+    <h3>2.1 Os instrumentos de gestão do território</h3>
+    <h4>2.1.1 Os instrumentos de planeamento territorial</h4>
+    <h4>2.1.2 Os regimes territoriais especiais</h4>
+</body>
+</html>
+
+
+As diferenças entre HTML4 e HTML5
+
+
+Html4:
+
+<html>
+    <head>
+        <title>Meu site HTML4</title>
+
+    </head>
+    <body bgcolor="blue">
+        <h1>Exemplo de site em HTML4</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nobis rerum aut, doloremque quibusdam culpa quis laudantium tempore sint, minus facilis omnis ad possimus rem maiores laborum fugiat sapiente asperiores.</p>
+        <p><font color="white">teste de parágrafo</font></p>
+    </body>
+</html>
+
+
+Html5:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Semântica</title>
+    <style>
+        body {
+            background-color: blue ;
+        }
+    </style>
+
+</head>
+<body>
+    <p>
+        Eu moro na <address>Rua dos Capixabas, 229 - Botafogo - RJ</address>
+    </p>
+</body>
+</html>
+
+
+Formatações de texto
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo de negrito</b> usando a tag B (não semântica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag (não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semêntica)</p>
+</body>
+</html>
+
+Formatações extras
+
+Dica: Tab e shift+tab é um dos atalhos para uso em código
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em liguagem JavaScript.</p>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Nobel, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de texto é importate. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudadno <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a mandar você tomar no cu ao contrário</bdo></p> <!-- rtl é invertido, ltr é a leitura normal-->
+</body>
+</html>
+
+<q> usado para citações simples
+<pre> usado para alinhar em linhas de código
+<code> usado para deixar as letras me formato de código
+<bdo> usado para texto invertido (parâmetro rtl para texto invertido e ltr para leitura normal
+<abbr> usado para abreviações (abre um pequeno popup para a pessoa entender o que a palavra significa)
+
+
+Listas Ol e UL
+
+Usar os comandos <ol> ou <ul> 
+
+O ol tem alguns parâmetros como type e start
+
+
+
